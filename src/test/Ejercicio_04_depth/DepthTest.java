@@ -22,7 +22,7 @@ public class DepthTest {
         root.getLeft().setRight(new Node(3));
         root.getLeft().getLeft().setLeft(new Node(8));
 
-        int maxDepth = depth.maxDepth(root);
+        int maxDepth = depth.Depth(root);
         assertEquals(4, maxDepth);
     }
 }

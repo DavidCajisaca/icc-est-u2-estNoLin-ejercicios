@@ -201,4 +201,10 @@ public class AVLTree {
         System.out.println("Inorder traversal of the constructed AVL tree is:");
         tree.inOrder();
     }
+
+    public Node addNode(int i) {
+        System.out.println("Nodo a insertar: " + i);
+        root = insert(root, i);
+        return root;
+    }
 }
